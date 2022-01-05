@@ -9,7 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Locations.DataAccess.Layer\LACP.Data.csproj" />
+    <ProjectReference Include="..\LACP.Data\LACP.Data.csproj" />
   </ItemGroup>
 
 </Project>
