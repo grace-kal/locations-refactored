@@ -4,7 +4,7 @@ using LACP.Data.Repositories.Repositories.Interfaces;
 using LACP.Services;
 using LACP.Services.Services;
 using LACP.Services.Services.Services.Interfaces;
-using Locations.Front.Layer.Mapper;
+using LocationAndChargePoint.App.Mapper;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -46,7 +46,7 @@ namespace Locations.Front.Layer
             });
             services.AddAutoMapper(typeof(AutoMapperProfile));
             services.AddScoped<ILocationChargePointService, LocationChargePointService>();
-            services.AddScoped<ILocationChargePointRepository, LocationChargePointRepository>();
+            services.AddScoped<LACP.Data.Repositories.ILocationChargePointRepository, LocationChargePointRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

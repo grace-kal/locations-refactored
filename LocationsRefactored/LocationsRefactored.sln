@@ -1,17 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31605.320
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Locations.Front.Layer", "LACP.Api\Locations.Front.Layer.csproj", "{E03D4F9A-72A0-4B66-B30A-37101F50F954}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LACP.Data", "LACP.Data\LACP.Data.csproj", "{75DEE8FB-9361-424E-A846-D997A94E301B}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LACP.Models", "Locations.Models\LACP.Models.csproj", "{F1B82BE6-FAC9-4987-99E2-5ABDFD0675EF}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LACP.Services", "LACP.Services\LACP.Services.csproj", "{4DEF3CA7-3FC0-4F7A-B09B-E35861837E5E}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LACP.Test", "LACP.Test\LACP.Test.csproj", "{C2558376-52B6-4719-8354-7B13BB37C548}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LACP.Models", "LACP.Models\LACP.Models.csproj", "{A45DD788-352A-4060-8EFA-C5A4FAE2F203}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LACP.Api", "LACP.Api\LACP.Api.csproj", "{DE8684F4-5D2B-4FD3-87C5-59D38756FAF9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,18 +19,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E03D4F9A-72A0-4B66-B30A-37101F50F954}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E03D4F9A-72A0-4B66-B30A-37101F50F954}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E03D4F9A-72A0-4B66-B30A-37101F50F954}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E03D4F9A-72A0-4B66-B30A-37101F50F954}.Release|Any CPU.Build.0 = Release|Any CPU
 		{75DEE8FB-9361-424E-A846-D997A94E301B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{75DEE8FB-9361-424E-A846-D997A94E301B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{75DEE8FB-9361-424E-A846-D997A94E301B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{75DEE8FB-9361-424E-A846-D997A94E301B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F1B82BE6-FAC9-4987-99E2-5ABDFD0675EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F1B82BE6-FAC9-4987-99E2-5ABDFD0675EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F1B82BE6-FAC9-4987-99E2-5ABDFD0675EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F1B82BE6-FAC9-4987-99E2-5ABDFD0675EF}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4DEF3CA7-3FC0-4F7A-B09B-E35861837E5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4DEF3CA7-3FC0-4F7A-B09B-E35861837E5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4DEF3CA7-3FC0-4F7A-B09B-E35861837E5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -39,6 +31,14 @@ Global
 		{C2558376-52B6-4719-8354-7B13BB37C548}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C2558376-52B6-4719-8354-7B13BB37C548}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C2558376-52B6-4719-8354-7B13BB37C548}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A45DD788-352A-4060-8EFA-C5A4FAE2F203}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A45DD788-352A-4060-8EFA-C5A4FAE2F203}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A45DD788-352A-4060-8EFA-C5A4FAE2F203}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A45DD788-352A-4060-8EFA-C5A4FAE2F203}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE8684F4-5D2B-4FD3-87C5-59D38756FAF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE8684F4-5D2B-4FD3-87C5-59D38756FAF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE8684F4-5D2B-4FD3-87C5-59D38756FAF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE8684F4-5D2B-4FD3-87C5-59D38756FAF9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
