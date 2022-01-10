@@ -46,7 +46,7 @@ namespace Locations.Front.Layer
             });
             services.AddAutoMapper(typeof(AutoMapperProfile));
             services.AddScoped<ILocationChargePointService, LocationChargePointService>();
-            services.AddScoped<LACP.Data.Repositories.ILocationChargePointRepository, LocationChargePointRepository>();
+            services.AddScoped<ILocationChargePointRepository, LocationChargePointRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
